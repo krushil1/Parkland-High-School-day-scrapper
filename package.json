@@ -1,0 +1,25 @@
+{
+  "name": "api-scrape",
+  "version": "1.0.0",
+  "description": "A web-scrapper that scrapes that day it is from PHS's calendar and returns the day in JSON format through RESTful API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "api",
+    "web-scrapper",
+    "PHS"
+  ],
+  "author": "Krushil Amrutiya",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "express": "^4.17.1",
+    "puppeteer": "^9.1.1",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "14.16.1"
+  }
+}
